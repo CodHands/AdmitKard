@@ -531,11 +531,7 @@
 		}
 		
 		@media screen and (min-width: 321px) and (max-width: 767px) {
-		    .cover img {
-			    height: 200px;
-			}
-			
-			.bar h4 {
+		 	.bar h4 {
 			    font-size: 14px;
 			}
 			
@@ -556,10 +552,6 @@
 			    font-size: 14px;
 			}
 			
-			.promo h4 {
-			    font-size: 14px;
-			}
-			
 			.facts h4 {
 			    font-size: 14px;
 			}
@@ -570,11 +562,6 @@
 			
 			.navbar-brand img {
 			    margin: 0 30%;
-			}
-			
-			.brand_bottom {
-			    height: 25px;
-				bottom: 0;
 			}
 			
 			.fac ul li {
