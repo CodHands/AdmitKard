@@ -1,0 +1,646 @@
+
+	@import url('https://fonts.googleapis.com/css?family=Oswald');
+	@import url('https://fonts.googleapis.com/css?family=Quicksand');
+  
+		body {
+	        padding: 0;
+			margin: 0;
+			font-family: 'Quicksand', sans-serif;
+		}
+		
+		a, a:hover, a:focus {
+		    text-decoration: none;
+		}
+         
+		*,html {
+		    box-sizing: border-box;
+		}
+		
+		nav {
+		    margin-bottom: 0px;
+			padding: 10px 0px 7px 15px;
+			background: #fff;
+		}
+		
+		.brand {
+		    height: 35px;
+			position: relative;
+			bottom: 10px;
+		}
+		
+		.navbar {
+		    margin-bottom: 0px;
+		}
+		
+		.navbar-nav {
+		    position: relative;
+			right: 15px;
+			padding-left: 0;
+		}
+		
+		.navbar .navbar-nav li span{
+		    font-size: 24px;
+			color: #777;
+		}
+		
+		.navbar .navbar-right li a {
+		    text-decoration: none;
+			color: #777;
+		}
+		
+		.navbar .navbar-right li a:hover{
+		    background: none;
+		}
+		
+		.special {
+		    padding-right: 150px;
+		}
+
+		.avatar {
+		    height: 35px;
+		}
+		
+		.avatar:hover {
+		    background: none;
+		}
+		
+		.user {
+		    border-left: 1px solid #777;
+			border-top: 1px solid #777;
+			border-bottom: 1px solid #777;
+			position: absolute;
+			top: 30px;
+			border-radius: 5px;
+			right: 60px;
+			width: 150px;
+		    padding: 3px 10px ;
+			cursor: pointer;
+		}
+		
+		.caret {
+		    position: relative;
+			top: 10px;
+		}
+		
+		.uv_bg {
+		    background: url('../Images/stanford.jpg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 60vh;
+			position: relative;
+		}
+		
+		.banner {
+		    position: absolute;
+		    left: 41%;
+			bottom: 3%;
+			border: 0;
+			padding: 20px 40px 0px 40px;
+			background: rgba(255,255,255,0.8);
+			border-radius: 5px;
+			outline: none;
+			text-align: center;
+		}
+		
+		.banner img {
+		    height: 50px;
+		}
+		
+		.info_wrapper {
+			position: absolute;
+		    left: 0px;
+			bottom: 30%;
+			border: 0;
+			outline: none;
+		}
+		
+		.info_wrapper .btn-circle {
+		    height: 30px;
+			width: 35px;
+			padding: 0;
+			text-align: center;
+		}
+		
+		.info_wrapper h4 {
+		    background: rgba(255,255,255,0.8);
+			padding: 10px;
+			border-bottom-right-radius: 5px;
+			border-top-right-radius: 5px;
+			margin-bottom: 15px;
+		}
+		
+		.info_wrapper h4 a i {
+		    font-size: 24px;
+			color: rgb(31,62,124);
+		}
+		
+		.share {
+			padding: 10px 0px 0px 0px;
+			position: absolute;
+		    right: 0px;
+			background: rgba(255,255,255,0.8);
+			bottom: 25%;
+			border: 0;
+			outline: none;
+		}
+		
+		.share ul {
+		    list-style: none;
+			padding-left: 10px;
+			padding-right: 5px;
+		}
+		
+		.share ul li a i{
+		    font-size: 20px;
+		}
+		
+		.share ul li {
+		    margin-bottom: 10px;
+		}
+		
+		.share .fa-facebook {
+		    background: rgb(58,88,155);
+			border-radius: 100%;
+			height: 30px;
+			width: 30px;
+			padding: 5px;
+			color: #fff;
+		}
+		
+		.share .fa-twitter {
+		    background: rgb(28,183,235);
+		    border-radius: 100%;
+			height: 30px;
+			width: 30px;
+			padding: 5px;
+			color: #fff;
+		}
+		
+		.share .fa-linkedin {
+		    background: rgb(0,122,185);
+		    border-radius: 100%;
+			height: 30px;
+			width: 30px;
+			padding: 5px;
+			color: #fff;
+		}
+		
+		.share .fa-youtube {
+		    background: rgb(207,52,39);
+		    border-radius: 100%;
+			height: 30px;
+			width: 30px;
+			padding: 5px;
+			color: #fff;
+		}
+		
+		.btn-circle {
+		    border-radius: 100%;
+			background: #eee;
+		}
+		
+		.facts {
+            padding: 20px;
+		    background: #eee;
+		}
+		
+		.facts .bar {
+		    border-left: 1px solid #777;
+			border-right: 1px solid #777;
+			text-align: center;
+		}
+		
+		.facts h4 {
+		    font-size: 18px;
+		}
+		
+		.facts h4 i{
+		    font-size: 24px;
+		}
+		
+		.about {
+		    background: rgb(65,65,65);
+			padding: 20px;
+			color: #fff;
+			text-align: center;
+		}
+		
+		.about span {
+		    font-size: 13px;
+		}
+		
+		.about h2 {
+		    margin-bottom: 20px;
+		}
+		
+		.about p {
+		    margin-bottom: 30px;
+			font-size: 13px;
+		}
+		
+		.info .bar {
+		    border-left: 1px solid #fff;
+		}
+		
+		.course {
+		    padding: 30px;
+			text-align: center;
+		}
+		
+		.course h2 {
+		    margin-bottom: 30px;
+			color: #000;
+			font-weight: bold;
+		}
+		
+		.nav-pills {
+		    display: inline-block;
+			align: left;
+			border: 1px solid rgb(32,65,132);
+			border-radius: 5px;
+			margin-bottom: 30px;
+		}
+		
+		
+		.nav-pills li a {
+		    font-size: 22px;
+			padding: 10px 20px 10px 20px;
+			border-radius: 5px;
+		}
+		
+		.accordion {
+		    color: #fff;
+		}
+		
+		.accordion h3 {
+		    padding: 10px;
+			background: rgb(32,65,132);
+			color: #fff;
+			border-radius: 5px;
+			text-align: left;
+			font-family: 'Quicksand', sans-serif;
+		}
+		
+		.accordion div {
+		    padding: 0;
+		}
+		
+		.accordion div table {
+		    height: 240px;
+		}
+		
+		.ui-accordion .ui-accordion-header {
+		    font-size: 20px;
+		}
+		
+		.ui-icon, .ui-widget-content .ui-icon {
+		    float: right;
+		}
+		
+		.ui-accordion .ui-accordion-content {
+		    padding: 0;
+		}
+		
+		.table {
+		    text-align: left;
+			font-family: 'Quicksand', sans-serif;
+			position: relative;
+			bottom: 20px;
+			overflow: hidden;
+		}
+		
+		table button {
+		    border: 1px solid rgb(32,65,132);
+			font-family: 'Quicksand', sans-serif;
+			border-radius: 5px;
+			padding: 5px 10px;
+			color: rgb(32,65,132);
+			background: #fff;
+		}
+		
+		table button:hover {
+		    color: #fff;
+			background: rgb(32,65,132); 
+		}
+		
+		table thead {
+		    background: rgb(228,228,228);
+		}
+		
+		.deadlines {
+		    padding: 30px;
+			text-align: center;
+			background: rgb(32,65,132);
+			color: #fff;
+		}
+		
+		.deadlines h2 {
+		    margin-bottom: 30px;
+		}
+		
+		.deadlines h5 {
+		    padding: 15px;
+			font-size: 16px;
+			color: #777;
+			margin-bottom: 0;
+			background: rgb(226,226,226);
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+		
+		.deadlines h4 {
+		    background: #fff;
+			color: rgb(32,65,132);
+			padding: 20px;
+			font-size: 22px;
+			margin-top: 0!important;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+		
+		.Offers {
+		    padding: 30px;
+			text-align: center;
+		}
+		
+		.Offers h2 {
+		    margin-bottom: 30px;
+			color: #000;
+		}
+		
+		.Offer_hr {
+		    width: 350px;
+			position: relative;
+			bottom: 10px;
+			border-bottom: 1px solid #777;
+		}
+		
+		.space_container span i{
+		    font-size: 40px;
+			background: rgb(32,65,132);
+			padding: 10px 15px 10px 15px;
+			color: #fff;
+			border-radius: 5px;
+			margin-bottom: 10px; 
+		}
+		
+		.small {
+		    line-height: 80%;
+		}
+		
+		.big {
+		    line-height: 80%;
+		}
+		
+		.medium {
+		    line-height: 80%;
+		}
+		
+		.space {
+		    margin-bottom: 30px;
+		}
+		
+		.stats {
+		    padding: 30px 15px 15px 15px;
+			background: rgb(227,227,227);
+			text-align: center;
+		}
+		
+		.stats h2 {
+		    margin-bottom: 30px;
+			color: #000;
+		}
+		
+		.cover {
+		    position: relative;
+		}
+		
+		.cover img {
+		    height: 300px;
+		}
+		
+		.title_it {
+		    position: absolute;
+		    bottom: 0;
+			padding: 10px;
+			text-align: center;
+			background: rgba(0,0,0,0.8);
+			color: #fff;
+			width: 100%;
+		}
+		
+		.ad {
+		    padding: 30px;
+		}
+		
+		.ad img {
+			height: 130px;
+			width: 100%;
+		}
+		
+		.ad .banner_2 {
+		    height: 190px;
+		}
+		
+		figcaption {
+		    padding: 10px;
+			text-align: center;
+			background: rgb(227,227,227);
+		}
+		
+		.fac ul {
+		    list-style: none;
+		}
+		
+		.fac {
+		    padding: 17px 15px 0px 10px;
+			background: rgb(32,65,132);
+			color: #fff;
+		}
+		
+		.fac i {
+		    font-size: 30px;
+		}
+		
+		.row.no-gutter {
+			  margin-left: 0;
+			  margin-right: 0;
+		}
+
+		.row.no-gutter [class*='col-']:not(:first-child),.row.no-gutter [class*='col-']:not(:last-child) {
+			  padding-right: 0;
+			  padding-left: 0;
+		}
+		
+		.fac ul li {
+		    padding-bottom: 16px;
+			font-size: 17px;
+		}
+		
+		.con_wrapper {
+		    text-align: center;
+			background: rgb(40,40,40);
+			padding: 30px;
+			color: #fff;
+			margin-bottom: 0;
+		}
+		
+		.extras ul li {
+		    font-size: 18px;
+		}
+		
+		.brand_bottom {
+		    height: 35px;
+		}
+		
+		.contact {
+		    padding: 15px;
+			border-top: 2px solid #fff;
+			border-bottom: 2px solid #fff;
+			margin-bottom: 15px;
+		}
+		
+		.contact ul{
+		    list-style: none;
+		}
+		
+		.move_up {
+		    position: relative;
+			bottom: 10px;
+		}
+		
+		.promo h4 {
+		    font-size: 14px;
+			vertical-align: center;
+		}
+		
+		.promo span {
+             color: rgb(255,210,0);	
+			 font-size: 14px;			 
+		}
+		
+		.promo img {
+		    margin: 0 auto;
+		}
+		
+		.promo .btn-circle {
+		    border-radius: 100%;
+			background: rgb(191,191,191);
+		}
+		
+		.promo h4 a i{
+		    font-size: 14px;
+			color: #404040;
+		}
+		
+		.move_it {
+		    position: relative;
+			right: 30px;
+			padding: 20px;
+		}
+		
+		@media screen and (min-width: 321px) and (max-width: 767px) {
+		    .cover img {
+			    height: 200px;
+			}
+			
+			.bar h4 {
+			    font-size: 14px;
+			}
+			
+			.bar span {
+			    font-size: 12px;
+			}
+			
+			.title_it h3{
+			    padding: 0px;
+				font-size: 14px;
+			}
+			
+			.con_wrapper h2 {
+			    font-size: 16px;
+			}
+			
+			.contact ul li {
+			    font-size: 14px;
+			}
+			
+			.promo h4 {
+			    font-size: 14px;
+			}
+			
+			.facts h4 {
+			    font-size: 14px;
+			}
+
+			.nav-pills li a{
+			    font-size: 16px;
+			}
+			
+			.navbar-brand img {
+			    margin: 0 30%;
+			}
+			
+			.brand_bottom {
+			    height: 25px;
+				bottom: 0;
+			}
+			
+			.fac ul li {
+			    font-size: 15px;
+			}
+			
+			.fac i {
+			    font-size: 20px;
+			}
+			
+			.info_wrapper h4 {
+			    font-size: 12px;
+				padding: 0px;
+			}
+			
+			.banner {
+			    padding: 5px 10px 0px 10px;
+			}
+			
+			.banner img {
+			    height: 40px;
+				position: relative;
+				top: 5px;
+			}
+			
+			.share {
+			    padding-top: 5px;
+			}
+			
+			.share .fa-linkedin {
+			    height: 26px;
+                width: 26px;				
+			}
+			
+			.share .fa-youtube {
+			    height: 26px;
+                width: 26px;				
+			}
+			
+			.share .fa-twitter {
+			    height: 26px;
+                width: 26px;				
+			}
+			
+			.share .fa-facebook {
+			    height: 26px;
+                width: 26px;				
+			}
+			
+			.share ul li a i {
+			    font-size: 16px;
+			}
+		}
+
+        @media screen and (max-width: 561px) {		
+		    .ad img {
+			    height: 110px;
+			}
+		}
